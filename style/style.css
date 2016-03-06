@@ -201,7 +201,6 @@ hr {
 	padding: 7px 5px 5px 5px;
 	margin: 10px 18px auto 10px;
 	float: left;
-	width: 250px;
 	background: #FFF;
 }
 
@@ -286,6 +285,45 @@ hr {
 	width: 100%;
 }
 
+
+.idealBrother {
+	padding-right: 0px;
+}
+
+.aboutPage > p {
+	    margin-top: 10px;
+			padding-right: 25px;
+			padding-left: 0px;
+}
+
+.becomePage > img {
+	width: 98%;
+}
+
+.pageHeader {
+	padding-top: 10px;
+	font-family: garamond, times;
+	text-transform: uppercase;
+	color: #2D1848;
+	font-size: 30pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.innerHeader {
+	margin: 25px 0 0 0px;
+	font-family: garamond, times;
+	text-transform: uppercase;
+	color: #2D1848;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.subInnerHeader {
+	margin: 10px 0 0 0;
+	color: #2D1848;
+	font-size: 12px;
+}
 
 
 

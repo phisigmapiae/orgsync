@@ -1,17 +1,15 @@
 import React from 'react';
 import { Component } from 'react';
 
-import IdealBrother from '../components/about/idealbrother';
-import AboutPsp from '../components/about/about';
+import PledgeHistory from '../components/activeBrothers/pledgeHistory';
 
-export default class About extends Component {
+export default class ActiveBrothers extends Component {
   render() {
     return (
       <div>
         <div className="content" >
           <div className="row">
-            <IdealBrother />
-            <AboutPsp />
+            <PledgeHistory />
           </div>
         </div>
       </div>

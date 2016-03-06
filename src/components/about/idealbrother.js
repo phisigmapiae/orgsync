@@ -4,7 +4,7 @@ import { Component } from 'react';
 export default class IdealBrother extends Component {
   render() {
     return (
-        <div className="col-xs-6 col-md-4">
+        <div className="col-xs-6 col-md-3 idealBrother">
           <div className="sidebar">
             <img src="http://os_extranet_images.s3.amazonaws.com/238812_original.jpg"  />
             <img src="http://os_extranet_images.s3.amazonaws.com/238810_original.jpg"  />
