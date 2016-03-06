@@ -5,7 +5,7 @@ import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap';
 export default class Base extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="outer_container">
 
         <div className="outer_header">
           <div className="header">
@@ -23,23 +23,36 @@ export default class Base extends Component {
           </div>
         </div>
 
-        <div className="navigation_wrapper">
-          <div className="navigation">
-            <ul>
-            	<li><a href="http://wcu.orgsync.com/org/phisigmapi/home" >Home</a></li>
-            	<li><a href="http://wcu.orgsync.com/org/phisigmapi/About">About</a></li>
-            	<li><a href="http://wcu.orgsync.com/org/phisigmapi/Calendar">Calendar</a></li>
-            	<li><a href="http://wcu.orgsync.com/org/phisigmapi/Become_a_Brother">Become a Brother</a></li>
-            	<li><a href="http://wcu.orgsync.com/org/phisigmapi/Active_Brothers">Active Brothers</a></li>
-            	<li><a href="http://wcu.orgsync.com/org/phisigmapi/Initiates">Initiates</a></li>
-            	<li><a href="http://wcu.orgsync.com/org/phisigmapi/Alumni_Spotlight">Alumni Spotlight</a></li>
-            	<li><a href="http://wcu.orgsync.com/org/phisigmapi/Contact_Us">Contact Us</a></li>
-            </ul>
-          </div>
+        <div className="container" >
+
+          <Navbar>
+            <Navbar.Header>
+              <Navbar.Brand>
+              </Navbar.Brand>
+              <Navbar.Toggle />
+            </Navbar.Header>
+            <Navbar.Collapse>
+              <Nav>
+                  <IndexLinkContainer to={{ pathname: '/'}}><NavItem >Home</NavItem></IndexLinkContainer>
+                  <LinkContainer to={{ pathname: '/About'}}><NavItem >About</NavItem></LinkContainer>
+                  <LinkContainer to={{ pathname: '/Become_a_Brother'}}><NavItem >Become a Brother</NavItem></LinkContainer>
+                  <LinkContainer to={{ pathname: '/Active_Brothers'}}><NavItem >Active Brothers</NavItem></LinkContainer>
+                  <LinkContainer to={{ pathname: '/Initiates'}}><NavItem >Initiates</NavItem></LinkContainer>
+                  <LinkContainer to={{ pathname: '/Alumni'}}><NavItem >Alumni</NavItem></LinkContainer>
+                  <LinkContainer to={{ pathname: '/Cantact_Us'}}><NavItem >Contact Us</NavItem></LinkContainer>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+
+            {this.props.children}
         </div>
 
-        Base
-        {this.props.children}
+        <div className="footer">
+        	<div className="footer_container">
+        		<p>© 2014 Phi Sigma Pi - Alpha Epsilon Chapter at West Chester University of Pennsylvania</p>
+        		<p>West Chester University of Pennsylvania | West Chester, PA 19383 | 610-436-1000</p>
+        	</div>
+        </div>
       </div>
     );
   }
