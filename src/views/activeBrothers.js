@@ -2,6 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 
 import PledgeHistory from '../components/activeBrothers/pledgeHistory';
+import ActiveBros from '../components/activeBrothers/activeBros';
 
 export default class ActiveBrothers extends Component {
   render() {
@@ -10,6 +11,7 @@ export default class ActiveBrothers extends Component {
         <div className="content" >
           <div className="row">
             <PledgeHistory />
+            <ActiveBros />
           </div>
         </div>
       </div>

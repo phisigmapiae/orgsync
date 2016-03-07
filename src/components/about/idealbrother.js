@@ -5,7 +5,7 @@ export default class IdealBrother extends Component {
   render() {
     return (
         <div className="col-xs-6 col-md-3 idealBrother">
-          <div className="sidebar">
+          <div className="sidebar hidden-xs hidden-sm">
             <img src="http://os_extranet_images.s3.amazonaws.com/238812_original.jpg"  />
             <img src="http://os_extranet_images.s3.amazonaws.com/238810_original.jpg"  />
 

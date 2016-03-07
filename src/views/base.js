@@ -6,7 +6,6 @@ export default class Base extends Component {
   render() {
     return (
       <div className="outer_container">
-
         <div className="outer_header">
           <div className="header">
          		<div className="org_title">
@@ -24,8 +23,7 @@ export default class Base extends Component {
         </div>
 
         <div className="container" >
-
-          <Navbar>
+          <Navbar className="pspNavbar">
             <Navbar.Header>
               <Navbar.Brand>
               </Navbar.Brand>
@@ -39,7 +37,7 @@ export default class Base extends Component {
                   <LinkContainer to={{ pathname: '/Active_Brothers'}}><NavItem >Active Brothers</NavItem></LinkContainer>
                   <LinkContainer to={{ pathname: '/Initiates'}}><NavItem >Initiates</NavItem></LinkContainer>
                   <LinkContainer to={{ pathname: '/Alumni'}}><NavItem >Alumni</NavItem></LinkContainer>
-                  <LinkContainer to={{ pathname: '/Cantact_Us'}}><NavItem >Contact Us</NavItem></LinkContainer>
+                  <LinkContainer to={{ pathname: '/Contact_Us'}}><NavItem >Contact Us</NavItem></LinkContainer>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -51,6 +49,7 @@ export default class Base extends Component {
         	<div className="footer_container">
         		<p>© 2014 Phi Sigma Pi - Alpha Epsilon Chapter at West Chester University of Pennsylvania</p>
         		<p>West Chester University of Pennsylvania | West Chester, PA 19383 | 610-436-1000</p>
+            <p>Made with <i className="fa fa-heart"></i> by  <a href="http://piotr.codes">piotr.codes</a></p>
         	</div>
         </div>
       </div>

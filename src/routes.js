@@ -8,6 +8,7 @@ import BecomeBrother from './views/becomeBrother'
 import ActiveBrothers from './views/activeBrothers'
 import Initiates from './views/initiates'
 import Alumni from './views/alumni'
+import Contact from './views/contact'
 
 export default (
   <Route path="/" component={Base} >
@@ -17,5 +18,6 @@ export default (
     <Route component={ActiveBrothers} path="/Active_Brothers" />
     <Route component={Initiates} path="/Initiates" />
     <Route component={Alumni} path="/Alumni" />
+    <Route component={Contact} path="/Contact_Us" />
   </Route>
 );
