@@ -7,10 +7,10 @@ export default class BrotherPanel extends Component {
     const { fName, lName, position, img, pClass } = this.props;
 
     return (
-      <div key={fName + lName} className="col-lg-3 col-md-4 col-xs-6 thumb broPanel">
+      <div key={fName + lName} className="brotherThumbnail">
             <p> {position} </p>
-            <img className="img-responsive" alt="brother" src={img} />
-            <p>{fName} | {pClass}</p>
+            <img alt="brother" src={img} />
+            <p> {fName} | {pClass}</p>
       </div>
     );
   }

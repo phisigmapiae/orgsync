@@ -13,7 +13,6 @@ a img {
 
 /* Generic
    ----------------------------------------------------*/
-
 body {
 	font-family: 'Lucida Grande', Verdana, Arial, sans-serif;
 	font-size: 13px;
@@ -46,6 +45,95 @@ code {
 hr {
 	margin: 5px 17px 0 17px;
 }
+
+/* Active Brothers Images */
+.brotherRow {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+
+ .brotherThumbnail {
+    padding: 7px;
+		width: 25%;
+		float: left;
+ }
+
+ .brotherThumbnail img {
+	 height: 185px;
+	 width: 145px;
+ }
+
+ .brotherThumbnail p {
+	 text-align: center;
+ }
+
+ @media (min-width: 1200px) and (max-width: 1920px) {
+	 .brotherThumbnail {
+	    padding: 7px;
+			width: 25%;
+			float: left;
+	 }
+
+	 .brotherThumbnail img {
+		 height: 210px;
+		 width: 180px;
+	 }
+ }
+
+ @media (min-width: 200px) and (max-width: 400px) {
+	 .brotherThumbnail {
+	     width: 45%;
+			 margin-left: 2%;
+			 margin-right: 2%;
+	     float: left;
+	 }
+
+	 .brotherThumbnail img {
+		 height: 150px;
+		 width: 130px;
+	 }
+ }
+
+ @media (min-width: 500px) and (max-width: 540px) {
+	 .brotherThumbnail {
+			 width: 33%;
+			 padding: 7px;
+			 float: left;
+	 }
+
+	 .brotherThumbnail img {
+		 height: 165px;
+		 width: 145px;
+	 }
+ }
+
+ @media (min-width: 541px) and (max-width: 677px) {
+	.brotherThumbnail {
+			width: 33%;
+			padding: 7px;
+			float: left;
+	}
+
+	.brotherThumbnail img {
+		height: 185px;
+		width: 155px;
+	}
+ }
+
+ @media (min-width: 399px) and (max-width: 499px) {
+	.brotherThumbnail {
+			width: 33%;
+			padding: 7px;
+			float: left;
+	}
+
+	.brotherThumbnail img {
+		height: 150px;
+		width: 110px;
+	}
+ }
+
 
 /* NavBar */
 
@@ -362,15 +450,29 @@ hr {
 .aboutPage > p {
 	    margin-top: 10px;
 			padding-right: 25px;
-			padding-left: 0px;
+			padding-left: 5px;
 }
 
 .becomePage > img {
 	width: 98%;
+	margin-left: 1%;
+}
+
+.becomePage > ul {
+	margin-left: 20px;
+}
+
+.becomePage > p {
+	margin-left: 1%;
 }
 
 .activePage > img {
 	width: 98%;
+	margin-left: 1%;
+}
+
+.processPage > ul {
+	margin-left: 5px;
 }
 
 .processPage li {
@@ -379,13 +481,17 @@ hr {
 
 .processPage a {
 	font-size: 10px;
-	margin-left: 2px;
+	margin-left: 5px;
 	color: #835F3C;
 	text-decoration: underline;
 }
 
-.highlightPage {
+.processPage > p {
+	margin-left: 5px;
+}
 
+.highlightPage > p {
+	margin-left: 5px;
 }
 
 .highlightImage {
@@ -416,12 +522,14 @@ hr {
 	color: #2D1848;
 	font-size: 20pt;
 	font-weight: bold;
+  padding-left: 5px;
 }
 
 .subInnerHeader {
 	margin: 10px 0 0 0;
 	color: #2D1848;
 	font-size: 12px;
+	padding-left: 5px;
 }
 
 .broChunk {

@@ -33,14 +33,10 @@ export default class ActiveBros extends Component {
     });
     bros = _.compact(bros);
 
-    bros = _.sortBy(bros, function(bro) {
+    return _.sortBy(bros, function(bro) {
         return EXEC_POSITIONS.indexOf(bro["class"]);
     });
 
-    const broChunk = _.chunk(bros, 4);
-    return broChunk.map(bros => {
-      return <div className="row broChunk"> {bros} </div>
-    });
   }
 
   renderChairs() {
@@ -56,13 +52,8 @@ export default class ActiveBros extends Component {
       }
     });
     bros = _.compact(bros);
-    bros = _.sortBy(bros, function(bro) {
+    return _.sortBy(bros, function(bro) {
         return CHAIR_POSITIONS.indexOf(bro["class"]);
-    });
-
-    const broChunk = _.chunk(bros, 4);
-    return broChunk.map((bros, index) => {
-      return <div key={index} className="row broChunk"> { bros } </div>
     });
   }
 
@@ -78,12 +69,7 @@ export default class ActiveBros extends Component {
           pClass={bro["class"]} />);
       }
     })
-    bros = _.compact(bros);
-
-    const broChunk = _.chunk(bros, 4);
-    // return broChunk.map((bros,index) => {
-      return <div className="row broChunk"> { broChunk } </div>
-    // });
+    return _.compact(bros);
   }
 
   renderBrothers() {
@@ -103,13 +89,8 @@ export default class ActiveBros extends Component {
     });
     bros = _.compact(bros);
 
-    bros = _.sortBy(bros, function(bro) {
+    return _.sortBy(bros, function(bro) {
         return PLEDGE_CLASSES.indexOf(bro["class"]);
-    });
-
-    const broChunk = _.chunk(bros, 4);
-    return broChunk.map((bros, index) => {
-      return <div key={index} className="row broChunk"> { bros } </div>
     });
   }
 
@@ -119,25 +100,29 @@ export default class ActiveBros extends Component {
           <h1 className="pageHeader">Active Brothers</h1>
           <img src="http://os_extranet_images.s3.amazonaws.com/238811_original.jpg" />
 
+          <div className="row brotherRow">
           <h2 className="innerHeader">Executive Board</h2>
           <hr color="#C2A26F" size="1px"/>
-          <div className="row"> { this.renderExecBoard() } </div>
+          { this.renderExecBoard() }
+          </div>
 
-          <br/>
+          <div className="row brotherRow">
           <h2 className="innerHeader">Alumni Advisors</h2>
           <hr color="#C2A26F" size="1px"/>
-          <div className="row"> { this.renderAlumniAdvisors() }</div>
+          { this.renderAlumniAdvisors() }
+          </div>
 
-          <br/>
+          <div className="row brotherRow">
           <h2 className="innerHeader">Chair Positions</h2>
           <hr color="#C2A26F" size="1px"/>
-          <div className="row"> { this.renderChairs() } </div>
+          { this.renderChairs() }
+          </div>
 
-          <br/>
+          <div className="row brotherRow">
           <h2 className="innerHeader">Brothers</h2>
           <hr color="#C2A26F" size="1px"/>
-          <div className="row"> { this.renderBrothers() } </div>
-
+          { this.renderBrothers() }
+          </div>
       </div>
     );
   }

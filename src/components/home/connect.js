@@ -14,6 +14,7 @@ export default class Connect extends Component {
       this.paintTwitter();
       this.setState({mounted: true});
   }
+
   render() {
     if (this.state.mounted) {
       twttr.widgets.load()
@@ -23,15 +24,11 @@ export default class Connect extends Component {
       <div className="indexSection connectSection">
         <h2>Connect With AE</h2>
         <hr color="#C2A26F" size="1px" />
-          <a className="btn btn-social-icon btn-twitter" href="https://twitter.com/phisigmapiae">
-            <span className="fa fa-twitter"></span>
-          </a>
-          <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/wcuphisigmapi/">
-            <span className="fa fa-facebook"></span>
-          </a>
-          <a className="btn btn-social-icon btn-instagram" href="https://www.instagram.com/phisigmapiae/">
-            <span className="fa fa-instagram"></span>
-          </a>
+        <div className="row">
+          <a className="btn btn-social-icon btn-twitter" href="https://twitter.com/phisigmapiae"><span className="fa fa-twitter"></span></a>
+          <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/wcuphisigmapi/"><span className="fa fa-facebook"></span></a>
+          <a className="btn btn-social-icon btn-instagram" href="https://www.instagram.com/phisigmapiae/"><span className="fa fa-instagram"></span></a>
+        </div>
           <a className="twitter-timeline" href="https://twitter.com/phisigmapiae" data-widget-id="706522265932926977">Tweets by @phisigmapiae</a>
       </div>
     );
