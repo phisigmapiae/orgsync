@@ -231,10 +231,10 @@ hr {
 }
 
 .org_info h4 {
-	margin-top: -6px;
+	margin-top: 5px;
 	color: #FFFFFF;
-    font-family: garamond, times;
-    font-size: 18px;
+  font-family: garamond, times;
+  font-size: 18px;
 	letter-spacing: 1pt;
 }
 
