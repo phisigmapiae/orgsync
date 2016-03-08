@@ -1,12 +1,9 @@
 import React from 'react';
 import { Component } from 'react';
+import { connect } from 'react-redux';
 import _ from 'lodash';
 
-import { connect } from 'react-redux';
-
 import BrotherPanel from './brotherPanel';
-
-const brothers = [];
 
 const EXEC_POSITIONS = ["President", "Vice President", "Secretary", "Treasurer", "Parliamentarian",
                         "Historian", "Initiate Advisor"];
