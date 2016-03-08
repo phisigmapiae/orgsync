@@ -141,7 +141,7 @@ hr {
     color: white;
 }
 
-.pspNavbar {
+.psp-navbar {
 	background-color: #2D1848;
 	border-right: none;
 	border-left: none;
@@ -152,10 +152,9 @@ hr {
 /* Header
    ----------------------------------------------------*/
 
-.outer_header {
+.outer-header {
   background-color: #2D1848;
   min-height: 102px;
-  /*width: 100%;*/
   padding-bottom: 120px;
   margin-bottom: -78px;
   border-bottom: 3px solid #FFFFFF;
@@ -288,29 +287,29 @@ hr {
   }
 }
 
-.indexSection {
+.index-section {
 	border: 2px solid #2D1848;
 	border-radius: 5px;
 	padding: 7px 5px 5px 5px;
 	margin: 10px auto auto 10px;
 }
 
-.connectSection {
+.connect-section {
 	text-align: center;
 }
 
-.newsSection {
+.news-section {
 	margin-left: 0px;
   margin-right: 0px;
 }
 
-.philanthropySection {
+.philanthropy-section {
 	margin-left: 0px;
 	margin-right: 10px;
 	margin-bottom: 10px;
 }
 
-.newsItem {
+.news-item {
 	width: 259px;
 	height: 100px;
 	margin: 30px auto;
@@ -320,21 +319,21 @@ hr {
   display: block;
 }
 
-.newsItem a{
+.news-item a{
 	font-size: 14px;
 	margin-top: 0px;
 	text-decoration: none;
 	color: #E3B024;
 }
 
-.newsItem img {
+.news-item img {
 	width: 24%;
 	float: left;
 	margin-left: 3px;
 	margin-right: 10px;
 }
 
-.philanthropyImg {
+.philanthropy-img {
 		width: 85%;
     border: 1px solid #000;
     border-radius: 5px;
@@ -439,7 +438,7 @@ hr {
 	width: 100%;
 }
 
-.idealBrother {
+.ideal-brother {
 	padding-right: 0px;
 }
 
@@ -447,22 +446,22 @@ hr {
 	padding-right: 0px;
 }
 
-.aboutPage > p {
+.about-page > p {
 	    margin-top: 10px;
 			padding-right: 25px;
 			padding-left: 5px;
 }
 
-.becomePage > img {
+.become-page > img {
 	width: 98%;
 	margin-left: 1%;
 }
 
-.becomePage > ul {
+.become-page > ul {
 	margin-left: 20px;
 }
 
-.becomePage > p {
+.become-page > p {
 	margin-left: 1%;
 }
 

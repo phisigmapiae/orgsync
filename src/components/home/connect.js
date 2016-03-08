@@ -21,7 +21,7 @@ export default class Connect extends Component {
     }
 
     return (
-      <div className="indexSection connectSection">
+      <div className="index-section connect-section">
         <h2>Connect With AE</h2>
         <hr color="#C2A26F" size="1px" />
         <div className="row">

@@ -4,7 +4,7 @@ import { Component } from 'react';
 export default class BecomeBrotherSection extends Component {
   render() {
     return (
-        <div className="col-xs-12 col-md-9 becomePage">
+        <div className="col-xs-12 col-md-9 become-page">
 
           <h1 className="pageHeader">Become A Brother</h1>
 

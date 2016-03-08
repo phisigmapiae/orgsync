@@ -21,7 +21,7 @@ var images = [
 export default class Carousel extends Component {
 
   handleSlide(index) {
-    console.log('Slid to ' + index);
+
   }
 
   render() {

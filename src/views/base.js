@@ -2,11 +2,19 @@ import React, { Component } from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap';
 
-export default class Base extends Component {
+import { fetchPosts } from '../actions/index';
+import { connect } from 'react-redux'
+
+
+class Base extends Component {
+  componentWillMount() {
+    this.props.fetchPosts();
+  }
+
   render() {
     return (
       <div className="outer_container">
-        <div className="outer_header">
+        <div className="outer-header">
           <div className="header">
          		<div className="org_title">
         			<div className="shield">
@@ -23,7 +31,7 @@ export default class Base extends Component {
         </div>
 
         <div className="container" >
-          <Navbar className="pspNavbar">
+          <Navbar className="psp-navbar">
             <Navbar.Header>
               <Navbar.Brand>
               </Navbar.Brand>
@@ -56,3 +64,5 @@ export default class Base extends Component {
     );
   }
 }
+
+export default connect(null, { fetchPosts })(Base)

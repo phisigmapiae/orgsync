@@ -2,9 +2,11 @@ import React from 'react';
 import { Component } from 'react';
 import _ from 'lodash';
 
+import { connect } from 'react-redux';
+
 import BrotherPanel from './brotherPanel';
 
-import { brothers } from '../../Brothers.js'
+const brothers = [];
 
 const EXEC_POSITIONS = ["President", "Vice President", "Secretary", "Treasurer", "Parliamentarian",
                         "Historian", "Initiate Advisor"];
@@ -18,9 +20,9 @@ const PLEDGE_CLASSES = ["A", "B", "Γ", "Δ", "Ε", "Z", "H", "Θ", "I", "K", "�
 "AΠ", "AP", "AΣ", "AT", "AY", "AΦ", "AX","AΨ","AΩ","BA", "BB", "BΓ", "BΔ", "BΕ", "BZ", "BH", "BΘ", "BI", "BK",
 "BΛ", "BM", "BN", "BΞ", "BO", "BΠ", "BP", "BΣ","BT", "BY", "BΦ", "BX","BΨ","BΩ"];
 
-export default class ActiveBros extends Component {
+class ActiveBros extends Component {
   renderExecBoard() {
-    let bros = brothers.map((bro, index) => {
+    let bros = this.props.brothers.map((bro, index) => {
       if (EXEC_POSITIONS.indexOf(bro["position"]) > -1) {
 
         return (<BrotherPanel
@@ -40,7 +42,7 @@ export default class ActiveBros extends Component {
   }
 
   renderChairs() {
-    let bros = brothers.map((bro, index) => {
+    let bros = this.props.brothers.map((bro, index) => {
       if (CHAIR_POSITIONS.indexOf(bro["position"]) > -1) {
         return (<BrotherPanel
           fName={bro["first name"]}
@@ -59,7 +61,7 @@ export default class ActiveBros extends Component {
 
   renderAlumniAdvisors() {
     // For now just return the list. TODO: Sort this list before rendering.
-    let bros = brothers.map((bro, index) => {
+    let bros = this.props.brothers.map((bro, index) => {
       if (bro["position"] === "Alumni Advisor") {
         return (<BrotherPanel
           fName={bro["first name"]}
@@ -74,7 +76,7 @@ export default class ActiveBros extends Component {
 
   renderBrothers() {
     // For now just return the list. TODO: Sort this list before rendering.
-    let bros = brothers.map((bro, index) => {
+    let bros = this.props.brothers.map((bro, index) => {
       if (CHAIR_POSITIONS.indexOf(bro["position"]) === -1 &&
           EXEC_POSITIONS.indexOf(bro["position"]) === -1 &&
           bro["position"] !== "Alumni Advisor") {
@@ -127,3 +129,9 @@ export default class ActiveBros extends Component {
     );
   }
 }
+
+function mapStateToProps(props) {
+  return { brothers : props.brothers.brothers };
+}
+
+export default connect(mapStateToProps)(ActiveBros);

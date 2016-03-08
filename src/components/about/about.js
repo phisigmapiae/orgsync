@@ -4,7 +4,7 @@ import { Component } from 'react';
 export default class AboutPsp extends Component {
   render() {
     return (
-        <div className="col-xs-12 col-md-9 aboutPage">
+        <div className="col-xs-12 col-md-9 about-page">
 
             <h1 className="pageHeader">About Phi Sigma Pi</h1>
 
