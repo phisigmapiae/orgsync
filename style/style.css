@@ -205,6 +205,42 @@ hr {
 	margin-top: -3px;
 }
 
+@media (min-width: 350px) and (max-width: 630px) {
+	.org_title h1 {
+	    color: #FFFFFF;
+	    font-family: garamond, times;
+	    text-transform: uppercase;
+	    font-size: 40px;
+	    margin-top: 10px;
+	}
+
+	.org_title h2 {
+    color: #E3B024;
+    font-family: garamond, times;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: -3px;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 349px) {
+	.org_title h1 {
+	    color: #FFFFFF;
+	    font-family: garamond, times;
+	    text-transform: uppercase;
+	    font-size: 30px;
+	    margin-top: 10px;
+	}
+
+	.org_title h2 {
+    color: #E3B024;
+    font-family: garamond, times;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: -3px;
+	}
+}
+
 .shield {
 	float: left;
 	margin-top: 8px;
@@ -242,7 +278,7 @@ hr {
 	background: #F5F0F0;
 	margin: 10px auto;
 	/*width: 980px;*/
-	height: 100%;
+	/*height: 100%;*/
   /*height:1071px;*/
 }
 

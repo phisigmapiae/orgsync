@@ -39,13 +39,13 @@ class Base extends Component {
             </Navbar.Header>
             <Navbar.Collapse>
               <Nav>
-                  <IndexLinkContainer to={{ pathname: '/'}}><NavItem >Home</NavItem></IndexLinkContainer>
-                  <LinkContainer to={{ pathname: '/About'}}><NavItem >About</NavItem></LinkContainer>
-                  <LinkContainer to={{ pathname: '/Become_a_Brother'}}><NavItem >Become a Brother</NavItem></LinkContainer>
-                  <LinkContainer to={{ pathname: '/Active_Brothers'}}><NavItem >Active Brothers</NavItem></LinkContainer>
-                  <LinkContainer to={{ pathname: '/Initiates'}}><NavItem >Initiates</NavItem></LinkContainer>
-                  <LinkContainer to={{ pathname: '/Alumni'}}><NavItem >Alumni</NavItem></LinkContainer>
-                  <LinkContainer to={{ pathname: '/Contact_Us'}}><NavItem >Contact Us</NavItem></LinkContainer>
+                  <IndexLinkContainer to={{ pathname: '/org/phisigmapi'}}><NavItem >Home</NavItem></IndexLinkContainer>
+                  <LinkContainer to={{ pathname: '/org/phisigmapi/About'}}><NavItem >About</NavItem></LinkContainer>
+                  <LinkContainer to={{ pathname: '/org/phisigmapi/Become_a_Brother'}}><NavItem >Become a Brother</NavItem></LinkContainer>
+                  <LinkContainer to={{ pathname: '/org/phisigmapi/Active_Brothers'}}><NavItem >Active Brothers</NavItem></LinkContainer>
+                  <LinkContainer to={{ pathname: '/org/phisigmapi/Initiates'}}><NavItem >Initiates</NavItem></LinkContainer>
+                  <LinkContainer to={{ pathname: '/org/phisigmapi/Alumni'}}><NavItem >Alumni</NavItem></LinkContainer>
+                  <LinkContainer to={{ pathname: '/org/phisigmapi/Contact_Us'}}><NavItem >Contact Us</NavItem></LinkContainer>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

@@ -11,13 +11,13 @@ import Alumni from './views/alumni'
 import Contact from './views/contact'
 
 export default (
-  <Route path="/" component={Base} >
+  <Route path="/org/phisigmapi" component={Base} >
     <IndexRoute component={Home} />
-    <Route component={About} path="/About" />
-    <Route component={BecomeBrother} path="/Become_a_Brother" />
-    <Route component={ActiveBrothers} path="/Active_Brothers" />
-    <Route component={Initiates} path="/Initiates" />
-    <Route component={Alumni} path="/Alumni" />
-    <Route component={Contact} path="/Contact_Us" />
+    <Route component={About} path="/org/phisigmapi/About" />
+    <Route component={BecomeBrother} path="/org/phisigmapi/Become_a_Brother" />
+    <Route component={ActiveBrothers} path="/org/phisigmapi/Active_Brothers" />
+    <Route component={Initiates} path="/org/phisigmapi/Initiates" />
+    <Route component={Alumni} path="/org/phisigmapi/Alumni" />
+    <Route component={Contact} path="/org/phisigmapi/Contact_Us" />
   </Route>
 );
