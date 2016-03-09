@@ -1,4 +1,25 @@
-{ "brothers": [
+{
+  "news" : [{
+      "text" : "Alpha Epsilon Travels to St. Joseph's University for the Philadelphia Metropolitan Regional Conference",
+      "url" : ""
+  }],
+  "homepageImages" : [
+    {
+      "original": "http://os_extranet_images.s3.amazonaws.com/390715_original.jpg",
+      "originalClass": "featured-slide",
+      "description": "Family Day 2015"
+    },
+    {
+      "original": "http://os_extranet_images.s3.amazonaws.com/390713_original.jpg"
+    },
+    {
+      "original": "http://os_extranet_images.s3.amazonaws.com/390714_original.jpg"
+    },
+    {
+      "original": "http://os_extranet_images.s3.amazonaws.com/390712_original.jpg"
+    }
+  ],
+  "brothers": [
       {
          "first name": "Mike",
          "last name": "Moriarty",
@@ -218,21 +239,21 @@
       },{
          "first name": "Sammy",
          "last name": "S",
-         "class": "",
+         "class": "ΒΔ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/342093_original.jpg"
       },{
          "first name": "Sammi",
          "last name": "W",
-         "class": "",
+         "class": "ΒΔ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/342100_original.jpg"
       },{
          "first name": "Heather",
          "last name": "D",
-         "class": "",
+         "class": "ΒΔ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/342056_original.jpg"
@@ -246,280 +267,280 @@
       },{
          "first name": "Mady",
          "last name": "",
-         "class": "",
+         "class": "BE",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/282882_original.jpg"
       },{
          "first name": "Jordan",
          "last name": "",
-         "class": "",
+         "class": "BE",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/342050_original.jpg"
       },{
          "first name": "Caitlin",
          "last name": "",
-         "class": "",
+         "class": "BE",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/342060_original.jpg"
       },{
          "first name": "Hailey",
          "last name": "",
-         "class": "",
+         "class": "BE",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/342088_original.jpg"
       },{
          "first name": "Bethany",
          "last name": "",
-         "class": "",
+         "class": "BE",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/342067_original.jpg"
       },{
          "first name": "LC",
          "last name": "",
-         "class": "",
+         "class": "BE",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/342052_original.jpg"
       },{
          "first name": "Eric",
          "last name": "M",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385414_original.jpg"
       },{
          "first name": "Lexi",
          "last name": "S",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385267_original.jpg"
       },{
          "first name": "Michael",
          "last name": "N",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385425_original.jpg"
       },{
          "first name": "Kristyn",
          "last name": "B",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385421_original.jpg"
       },{
          "first name": "Claire",
          "last name": "",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385413_original.jpg"
       },{
          "first name": "Erica",
          "last name": "",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385415_original.jpg"
       },{
          "first name": "Katie",
          "last name": "M",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385419_original.jpg"
       },{
-         "first name": "Linsay",
+         "first name": "Lindsay",
          "last name": "G",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385424_original.jpg"
       },{
          "first name": "Taylor",
          "last name": "",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385428_original.jpg"
       },{
          "first name": "Tony",
          "last name": "",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385411_original.jpg"
       },{
          "first name": "Harley",
          "last name": "",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385417_original.jpg"
       },{
          "first name": "Samantha",
          "last name": "M",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385426_original.jpg"
       },{
          "first name": "Cameron",
          "last name": "",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385412_original.jpg"
       },{
          "first name": "Hailey",
          "last name": "A",
-         "class": "",
+         "class": "BZ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/385416_original.jpg"
       },{
          "first name": "Gabriella",
          "last name": "M",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384681_original.jpg"
       },{
          "first name": "Nick",
          "last name": "B",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384690_original.jpg"
       },{
          "first name": "Melanie",
          "last name": "F",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384688_original.jpg"
       },{
          "first name": "Jimmy",
          "last name": "S",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384683_original.jpg"
       },{
          "first name": "Alex",
          "last name": "L",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384674_original.jpg"
       },{
          "first name": "Devon",
          "last name": "A",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384680_original.jpg"
       },{
          "first name": "Brianna",
          "last name": "C",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384677_original.jpg"
       },{
          "first name": "Alexis",
          "last name": "",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384675_original.jpg"
       },{
          "first name": "Deanna",
          "last name": "",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384679_original.jpg"
       },{
          "first name": "Lindsey",
          "last name": "",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384686_original.jpg"
       },{
          "first name": "Kyra",
          "last name": "",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/282882_original.jpg"
       },{
          "first name": "Morgan",
          "last name": "",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/282882_original.jpg"
       },{
          "first name": "Reginald",
          "last name": "",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/282882_original.jpg"
       },{
          "first name": "Renee",
          "last name": "",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/282882_original.jpg"
       },{
          "first name": "Haley",
          "last name": "S",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384682_original.jpg"
       },{
          "first name": "Carmen",
          "last name": "R",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384678_original.jpg"
       },{
          "first name": "Karlie",
          "last name": "M",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/282882_original.jpg"
       },{
          "first name": "Kelsey",
          "last name": "",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384685_original.jpg"
       },{
          "first name": "Sarah",
          "last name": "",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/282882_original.jpg"
       },{
          "first name": "Katlyn",
          "last name": "",
-         "class": "",
+         "class": "BH",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/282882_original.jpg"
