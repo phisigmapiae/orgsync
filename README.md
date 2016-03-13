@@ -12,6 +12,7 @@ Run the following commands
 ```
 
 When deploying a new version of the website, replace/include the following files:
+
 1. bundle.js
 2. style.css
 
