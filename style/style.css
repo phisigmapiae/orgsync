@@ -455,6 +455,10 @@ hr {
 	padding-right: 0px;
 }
 
+.become-page > ul > li {
+    margin-left: 0px;
+}
+
 .resources {
 	padding-right: 0px;
 }
@@ -515,6 +519,14 @@ hr {
 	font-size: 20px;
 	text-align: center;
 	margin-bottom: 5px;
+}
+
+@media (min-width: 200px) and (max-width: 420px) {
+	.highlightImage > img {
+		text-align: center;
+		width: 100%;
+		height: auto;
+	}
 }
 
 .pageHeader {
