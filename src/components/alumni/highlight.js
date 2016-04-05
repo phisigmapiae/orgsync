@@ -1,7 +1,35 @@
 import React from 'react';
 import { Component } from 'react';
+import { connect } from 'react-redux';
+import _ from 'lodash';
 
-export default class Highlight extends Component {
+import BrotherPanel from '../activeBrothers/brotherPanel';
+
+import { PLEDGE_CLASSES } from '../activeBrothers/activeBros'
+
+class Highlight extends Component {
+
+  renderBrothers() {
+    // For now just return the list. TODO: Sort this list before rendering.
+
+    let bros = this.props.brothers.map((bro, index) => {
+      if (!bro["active"]) {
+            return (<BrotherPanel
+              key={bro["first name"] + bro["last name"] + bro["class"]}
+              fName={bro["first name"]}
+              lName={bro["last name"]}
+              position={bro["position"]}
+              img={bro["img"]}
+              pClass={bro["class"]} />);
+      }
+    });
+    bros = _.compact(bros);
+
+    return _.sortBy(bros, function(bro) {
+        return PLEDGE_CLASSES.indexOf(bro["class"]);
+    });
+  }
+
   render() {
     return (
         <div className="col-xs-12 col-md-9 highlightPage">
@@ -35,7 +63,18 @@ export default class Highlight extends Component {
               <h2 className="innerHeader">Alumni</h2>
 
               <hr color="#C2A26F" size="1px"/>
+
+              <div className="row brotherRow">
+              <hr color="#C2A26F" size="1px"/>
+              { this.renderBrothers() }
+              </div>
         </div>
     );
   }
 }
+
+function mapStateToProps(props) {
+  return { brothers : props.brothers.brothers };
+}
+
+export default connect(mapStateToProps)(Highlight)

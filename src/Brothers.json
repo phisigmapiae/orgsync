@@ -531,6 +531,20 @@
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/282882_original.jpg"
+      },{
+         "first name": "Jess",
+         "last name": "Bannister",
+         "class": "",
+         "position": "",
+         "active": false,
+         "img" : "http://os_extranet_images.s3.amazonaws.com/342048_original.jpg"
+      },{
+         "first name": "Taylor",
+         "last name": "Helmers",
+         "class": "",
+         "position": "",
+         "active": false,
+         "img" : "http://os_extranet_images.s3.amazonaws.com/342068_original.jpg"
       }
    ]
 }

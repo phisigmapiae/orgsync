@@ -12,7 +12,7 @@ const CHAIR_POSITIONS = ["Service", "Social", "Finance", "Scholarship", "Fellows
                           "Rush / CO-IA", "Web & Tech", "Alumni Relations", "Risk Management", "Philanthropy",
                         "Public Relations"];
 
-const PLEDGE_CLASSES = ["A", "B", "Γ", "Δ", "Ε", "Z", "H", "Θ", "I", "K", "Λ", "M", "N", "Ξ", "O", "Π", "P", "Σ", "T",
+export const PLEDGE_CLASSES = ["A", "B", "Γ", "Δ", "Ε", "Z", "H", "Θ", "I", "K", "Λ", "M", "N", "Ξ", "O", "Π", "P", "Σ", "T",
 "Y", "Φ", "X","Ψ","Ω","AA", "AB", "AΓ", "AΔ", "AΕ", "AZ", "AH", "AΘ", "AI", "AK", "AΛ", "AM", "AN", "AΞ", "AO",
 "AΠ", "AP", "AΣ", "AT", "AY", "AΦ", "AX","AΨ","AΩ","BA", "BB", "BΓ", "BΔ", "BΕ", "BZ", "BH", "BΘ", "BI", "BK",
 "BΛ", "BM", "BN", "BΞ", "BO", "BΠ", "BP", "BΣ","BT", "BY", "BΦ", "BX","BΨ","BΩ"];
@@ -76,7 +76,8 @@ class ActiveBros extends Component {
     let bros = this.props.brothers.map((bro, index) => {
       if (CHAIR_POSITIONS.indexOf(bro["position"]) === -1 &&
           EXEC_POSITIONS.indexOf(bro["position"]) === -1 &&
-          bro["position"] !== "Alumni Advisor") {
+          bro["position"] !== "Alumni Advisor" &&
+          bro["active"]) {
             return (<BrotherPanel
               key={bro["first name"] + bro["last name"] + bro["class"]}
               fName={bro["first name"]}
