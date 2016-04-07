@@ -18,7 +18,7 @@ body {
 	font-size: 13px;
 	margin: 0px;
 	padding: 0px;
-	background-color: #E3B024;
+	background-color: #F2B535;
 	height: 100%;
 }
 
@@ -119,18 +119,22 @@ hr {
 }
 
 .psp-navbar {
-	background-color: #2D1848;
+	background-color: #3D0358;
 	border-right: none;
 	border-left: none;
 	border-color: white;
 	border-radius: 0px;
 }
 
+.psp-navbar a{
+	text-decoration: none;
+}
+
 /* Header
    ----------------------------------------------------*/
 
 .outer-header {
-  background-color: #2D1848;
+  background-color: #4E076F;
   min-height: 102px;
   padding-bottom: 120px;
   margin-bottom: -71px;
@@ -174,7 +178,7 @@ hr {
 }
 
 .org_title h2 {
-	color: #E3B024;
+	color: #F2B535;
     font-family: garamond, times;
     text-transform: uppercase;
     font-size: 22px;
@@ -191,7 +195,7 @@ hr {
 	}
 
 	.org_title h2 {
-    color: #E3B024;
+    color: #F2B535;
     font-family: garamond, times;
     text-transform: uppercase;
     font-size: 14px;
@@ -311,11 +315,13 @@ hr {
 }
 
 .news-section {
+	text-align: center;
 	margin-left: 0px;
   margin-right: 0px;
 }
 
 .philanthropy-section {
+	text-align: center;
 	margin-left: 0px;
 	margin-right: 10px;
 	margin-bottom: 10px;
@@ -325,7 +331,7 @@ hr {
 	width: 259px;
 	height: 100px;
 	margin: 30px auto;
-	background-color: #2D1848;
+	background-color: #3D0358;
 	border-radius: 5px;
 	box-shadow: 2px 2px 1px #888888;
   display: block;
@@ -335,7 +341,7 @@ hr {
 	font-size: 14px;
 	margin-top: 0px;
 	text-decoration: none;
-	color: #E3B024;
+	color: #F2B535;
 }
 
 .news-item img {
@@ -572,7 +578,7 @@ hr {
 
 .footer {
 	bottom: 0;
-	background: #2D1848;
+	background: #3D0358;
 	clear: both;
 	margin-top: 50px;
 	width: 100%;
