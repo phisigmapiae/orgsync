@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, IndexRoute } from 'react-router';
+import { Route, Redirect, IndexRoute } from 'react-router';
 
 import Base from './views/base'
 import Home from './views/home'
@@ -13,6 +13,7 @@ import Contact from './views/contact'
 export default (
   <Route path="/org/phisigmapi" component={Base} >
     <IndexRoute component={Home} />
+    <Redirect from="/org/phisigmapi/Home" to="/org/phisigmapi" />
     <Route component={About} path="/org/phisigmapi/About" />
     <Route component={BecomeBrother} path="/org/phisigmapi/Become_a_Brother" />
     <Route component={ActiveBrothers} path="/org/phisigmapi/Active_Brothers" />
