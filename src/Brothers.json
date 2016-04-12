@@ -19,6 +19,350 @@
       "original": "http://os_extranet_images.s3.amazonaws.com/390712_original.jpg"
     }
   ],
+  "classes" : [
+    {
+      "name": "Founders",
+      "inducted": "October 30, 1988",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239179_original.jpg",
+      "members" : "Melissa Cowoski, Nancy Waye, Deborah Dorsey, Yolanda Neidrich, Kyle Derr, Gene Fox, Vincent Graziani, Amy McFarland, Nancy Zalinski, Tammy Vance, Suzanne Barclay, Laurel Van der Schyff, Stephen Johnson, Alex Mielechowsky III, Steven Werkheiser, Kim Paris, and Maria Wojcik."
+    },
+    {
+      "name": "Alpha",
+      "inducted": "Spring 1989",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239145_original.jpg",
+      "members" : "Kathleen Sharp, Amy Ritter, Kristin Bogdan, Tina Belles, Karen Deckard, Ronald Deeley, Judith Mann, Teresa Montalbano, Lisa Craig, Kimberly Doll, Marianne Salaga, Paul Smith, Ronald Martin, and Bryan Schmotzer."
+    },
+    {
+      "name": "Beta",
+      "inducted": "Fall 1989",
+      "photo" : null,
+      "members" : "Beverly Sweet, Melissa MacNamara, Jill Caris, Diane Lint, Sharon Stubblebine, Robin Foster, Jordan Seidel, Elizabeth Rack, Jennifer Sermas, Tracey McSherry, Anthony Scaglione, Thomas Scales, and Lisa Borges."
+    },
+    {
+      "name": "Gamma",
+      "inducted": "Spring 1990",
+      "photo" : null,
+      "members" : "John Braknis, Andrea Conrad, Melissa Douglas, Cindy Kelly, Dianne Kozar, Maria Polverini, Jennifer Pulli, Amanda Rogers, and Scott Stefanides."
+    },
+    {
+      "name": "Delta",
+      "inducted": "Fall 1990",
+      "photo" : null,
+      "members" : "Danielle Ericson, Deeannah Faivre, Jennifer Firestone, Valerie Liiva, Beth Wagner, Beth Delaney, Carla Stefano, and Amy Hefton."
+    },
+    {
+      "name": "Epsilon",
+      "inducted": "Spring 1991",
+      "photo" : null,
+      "members" : "Laurie Polin, Robin Hogenmiller, Nicole Jensen, Heather Bradbury, Jennifer Peters, Michelle Boileau, Jennifer Shea, Jennifer Menges, Kathleen Burke, Krista Werstler, Lynnette Wiatts, Christina Wiedmayer, Alan Dubroff, Amar Kosaraju, Rick Hackett, William Sterious, and Eric Burley."
+    },
+    {
+      "name": "Zeta",
+      "inducted": "Fall 1991",
+      "photo" : null,
+      "members" : "Pam Zemble, Sarah Mitchell, Catherine Browne, Amy Angelilli, Alyssa Walters, Steven Miller, Amy Stern, Beth Mayall, John Carr III, and Barbara Mulckhuyse."
+    },
+    {
+      "name": "Eta",
+      "inducted": "Spring 1992",
+      "photo" : null,
+      "members" : "Missy D'Ambrosio, Sharon Parsons, Michele D'Aulerio, Kelly Landfried, Karen Glisson, Susan Kostak, Stacey Cornelius, Christopher Fulcher, David Britsch, Charles Nuss Jr., Stacey Kumpka, Jason McAffee, Ted Viva, and Wade Birchfield Jr."
+    },
+    {
+      "name": "Theta",
+      "inducted": "Fall 1992",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239189_original.jpg",
+      "members" : "Lori Glickman, Carrie O'Kain, Kristin Lingle, Michelle Renzi, Tracy Chapman, Shannon Henry, and Melissa Foster."
+    },
+    {
+      "name": "Iota",
+      "inducted": "Spring 1993",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239180_original.jpg",
+      "members" : "Jennifer Tipka, Nicole Fiorella, Diane Pachella, Rebecca Lane, Patricia Simonson, Andrea McIntire, Nancy Gimbel, Michelle Charney, Tamie Beeman-Gangloff, Cathy Dobraniecki, Christina Schock, Kristi Herbst, and Patrick Herron."
+    },
+    {
+      "name": "Kappa",
+      "inducted": "Fall 1993",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239181_original.jpg",
+      "members" : "Anne Matts, Wendy Mentzer, Anne Love, Emily Eckroat, Joan Lenker, Michele Remaize, Amy Reese, and Kristin Lewis."
+    },
+    {
+      "name": "Lambda",
+      "inducted": "Spring 1994",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239182_original.jpg",
+      "members" : "Ann Marie Chorla, Laurie Ziska, Erica Nikischer, Stacey Gembusia, Michelle Carl, Ann Yearance, Gina Mammola, Nicole Yakubowski, Christine Kelly, Diane Ibbotson, Sandra Pittman, Margaret Powell, Christie Haverkamp, Amy Bogan, and Gina Gargiulo, and Matt Peters (transfer)."
+    },
+    {
+      "name": "Mu",
+      "inducted": "Fall 1994",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239183_original.jpg",
+      "members" : "Edie Chan, Dawn Stearly, Jill Beck, Felise Thomas, Kevin Sperling, Chris Guglielmo, Jerry Dorn Jr., Bridget Miller, Kristin Wallace, Kellie Showers, and and Simon Boddie."
+    },
+    {
+      "name": "Nu",
+      "inducted": "Spring 1995",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239184_original.jpg",
+      "members" : "Maureen Sekel, Sheri Klein, Kelly Garman, Julie Timmins, Kristi Connolly, Cristina Nancarrow, and Tiffany Turner."
+    },
+    {
+      "name": "Xi",
+      "inducted": "Fall 1995",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239191_original.jpg",
+      "members" : "Kelly Rymsa, Melissa Crea, Kathleen Adam, Kelly Kirkland, Michael Hook, Melanie Newsted, Kristen Kaminski, and John O'Rourke."
+    },
+    {
+      "name": "Omicron",
+      "inducted": "Spring 1996",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239185_original.jpg",
+      "members" : "Amy Botta, Sara Summers, Megan Wonderland, Allison Nanartowicz, Heather Bell, Luisa Rodriguez, Stacey Mellinger, Tara Reynolds, Tammy Mleziva, Stacy Murphy, and Erin Barrett (transfer)."
+    },
+    {
+      "name": "Pi",
+      "inducted": "Fall 1996",
+      "photo" : null,
+      "members" : "Dawn Daroci, Rachael Levy, Michelle Kenner, Rebecca Sutters, Kellie Rogers, Christine Hunt, Jennifer Gerber, Monica Wagner, and Donald Currie."
+    },
+    {
+      "name": "Rho",
+      "inducted": "Spring 1997",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239188_original.jpg",
+      "members" : "Jennifer, Amy Miller, Brinda Salla, Wakina Linton, Amy Boner, Laurie Sterling, Morley Mullins, and Fiona Kane."
+    },
+    {
+      "name": "Sigma",
+      "inducted": "Fall 1997",
+      "photo" : null,
+      "members" : "Andrea Augustino, Maria Hatziliadis, Angel Chelik, Amy Leonhardt, Cara Swinderman, Cynthia Margolis, Cyndi Cook, Jessica Scott, Vincent Myers, Rebecca Matics, and Eric Olinick."
+    },
+    {
+      "name": "Tau",
+      "inducted": "Spring 1998",
+      "photo" : null,
+      "members" : "Andrea Darr, Cathy Motznik, Elizabeth Klepner, Shannon Bowers, Hannah Miron, Kathleen Finnegan, Kelli Chapman, and Carolyn Ranck."
+    },
+    {
+      "name": "Upsilon",
+      "inducted": "Fall 1998",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239190_original.jpg",
+      "members" : "Kelly Geist, Jennifer Wolf, Michele Tedeschi, Allison Landau, Shamaine Daniels, Naki Pratt, Tara Nearhood, and Brad Hoskin."
+    },
+    {
+      "name": "Phi",
+      "inducted": "Spring 1999",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239186_original.jpg",
+      "members" : "Jessica Piccone, Angelique Perkins, Meaghan McHugh, Jeff Thomas, Michelle Filling, and Laura Malandra (transfer)."
+    },
+    {
+      "name": "Chi",
+      "inducted": "Fall 1999",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239178_original.jpg",
+      "members" : "Bren Cooper, Melissa Sanders, Anna Downes, Rhyan Grech, Megan Munn, Andrea Fanelli, Kristin Radzinsky, Adriane Eichert, Kimberly Watson, Sarah Danitz, Allison Nield, Liza Snyder, and Karen Keller."
+    },
+    {
+      "name": "Psi",
+      "inducted": "Spring 2000",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239187_original.jpg",
+      "members" : "Allison Strickland, Kim Paolillo, Jenn Hamilton, Kristin Bradbury, Judy Hurbon, Jenn Rommel, Hillary Reisinger, Marie McGovern, Jake Kesterke, Luke Boltz, Alycia Levari, Brian Dikun, and Meg George (transfer)."
+    },
+    {
+      "name": "Omega",
+      "inducted": "Fall 2000",
+      "photo" : null,
+      "members" : "Dena Cook, Carly Howell, and Matthew Breit."
+    },
+    {
+      "name": "Alpha Alpha",
+      "inducted": "Fall 2001",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239146_original.jpg",
+      "members" : "Doreen DiMenno, Denise McCann, Nichole Hunsicker, Michelle Hunsicker, Valerie Mixon, Heather Sanders, Katia Issa, Andrea Siddall, Kevin Morgan, Meghan Schott, and Doug Mascherino."
+    },
+    {
+      "name": "Alpha Beta",
+      "inducted": "Spring 2001",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239147_original.jpg",
+      "members" : "Brittany Letter, Dana Weiderhold, Melissa Crupi, Jackie Keehn, Jodi Krumrine, and Jon Kolle."
+    },
+    {
+      "name": "Alpha Gamma",
+      "inducted": "Fall 2002",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239151_original.jpg",
+      "members" : "Lauren Cavallini, Laura Turner, Megan Lawhead, Lauren Brochet, Kelli Ranck, Jessica Seasholtz, Molly Wood, Bizz Douty, Allie Andrew, Lauren Kirk, Cristen Fedor, Jocelyn Pietrantonio, and Katie Burmeister."
+    },
+    {
+      "name": "Alpha Delta",
+      "inducted": "Spring 2002",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239149_original.jpg",
+      "members" : "Shanna Sperduto, Emily Shaker, Susan Price, Rachel Altomare, Michelle Wentz, Lisa Endrikat, Lisa Uba, Nicole Alderfer, and Justin Smith."
+    },
+    {
+      "name": "Alpha Epsilon",
+      "inducted": "N/A",
+      "photo" : null,
+      "members" : "Note: There is no Apla Epsilon pledge class."
+    },
+    {
+      "name": "Alpha Zeta",
+      "inducted": "Spring 2003",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239175_original.jpg",
+      "members" : "Dave Schneider, MaryBeth Schray, Gary Obert, Brian Dellinger, and Joshua Young."
+    },
+    {
+      "name": "Alpha Eta",
+      "inducted": "Fall 2003",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239150_original.jpg",
+      "members" : "Michael Heffelfinger, Kristin Reynolds, Lauren Magnotta, Alicia Corrato, Becky Scavello, Ashley Smith, Jill Mingo, Kris Bellan, Chynelle Singleton, Erin Rosenthal, Lauren Markovitz, and Caitlin Piergalline (transfer)."
+    },
+    {
+      "name": "Alpha Theta",
+      "inducted": "Spring 2004",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239172_original.jpg",
+      "members" : "Christie Ferenchek, Jennifer Berle, Rachael Packer, Rose Wentzel, Victoria Ravo, and Staci German."
+    },
+    {
+      "name": "Alpha Iota",
+      "inducted": "Fall 2004",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239152_original.jpg",
+      "members" : "Amanda Kratowicz, Megan Alvez, Emily Ahrens, Carol Perez, Jenna Sagers, Jennie Russel, Allyse Hetrick, Mandi Levengood, Marissa Levin, Stephanie Parker, and Kristin Bower."
+    },
+    {
+      "name": "Alpha Kappa",
+      "inducted": "Spring 2005",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239153_original.jpg",
+      "members" : "Aileen Burke, Mike Medina, Ali Rodrigues, and Amanda Rowlands."
+    },
+    {
+      "name": "Alpha Lambda",
+      "inducted": "Fall 2005",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239154_original.jpg",
+      "members" : "Kerri Welcome, Lou Mammana, Kate Perelman, Ann Gambuzza, Monica Krausz, Jackie Kilroy, Dustin Chubb, and Blayne Hayes."
+    },
+    {
+      "name": "Alpha Mu",
+      "inducted": "Spring 2006",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239155_original.jpg",
+      "members" : "Denielle Rice, Jamie Day, Robyn Carr, Scott Shapiro, Lindsay Lopatin, Brianna Downs, Alison Uszenski (transferred), Anna Stambolian (transferred), Lauren Wells, and Shannon Mikruk."
+    },
+    {
+      "name": "Alpha Nu",
+      "inducted": "Fall 2006",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239156_original.jpg",
+      "members" : "Nicole Savino, Frankie Singleton (transferred), Jen Krantz, and Maria Dietrich."
+    },
+    {
+      "name": "Alpha Xi",
+      "inducted": "Spring 2007",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239174_original.jpg",
+      "members" : "Colleen O'Shea and Emily Gentile."
+    },
+    {
+      "name": "Alpha Omicron",
+      "inducted": "Fall 2007",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239158_original.jpg",
+      "members" : "Brett Fahs (transferred), Chelsey Baker, Hillary Stein, Jessica Wentzel, Erica Detwiler, Lindsay Chalela, John Girafalco, Amber Staska, Denise Cavanagh, and Kellie Abendshoen."
+    },
+    {
+      "name": "Alpha Pi",
+      "inducted": "Spring 2008",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239167_original.jpg",
+      "members" : "Maura O'Malley, Derek Baughman, Michael Scholl, Phil Knasiak, Kate Clark, Alex Tierney, Abbie Derr, Colleen Wagner, Rebecca Crotti, Cara Poole, Jaclyn Bell, Scott Tyler, Sara Murray, and Morgan Herlihy."
+    },
+    {
+      "name": "Alpha Rho",
+      "inducted": "Fall 2008",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239169_original.jpg",
+      "members" : "Brendan Larkin, Greg Altmeier, Neil Sussman, Nathan Kutz, Trisha Kaehne, Christina Mordente, Teric Skerrett, Abby Gilpatrick, Erin Colozzi, Alyssa Pannebaker, Jenn Weaver, Amanda Auerbach, Carlee Hahn, Brittany Luke, Lindsay Naylor, Mia Dellamonica, and Charlee Moore."
+    },
+    {
+      "name": "Alpha Sigma",
+      "inducted": "Spring 2009",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239170_original.jpg",
+      "members" : "Joe Boccardo, Kaitlyn Drabb, Katie Laudone, Matthew Newmeyer, Jack Crocco, Stacy Fromhold, Angela Cuva, Ashley-Lynn Kelly, Iris Ng, and Kasey McManus."
+    },
+    {
+      "name": "Alpha Tau",
+      "inducted": "Fall 2009",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239171_original.jpg",
+      "members" : "Jess Barr, Erin Maginnis, Lindsay Schruhl, Christina Lombardi, Holly Foster, and Katelyn Bright."
+    },
+    {
+      "name": "Alpha Upsilon",
+      "inducted": "Spring 2010",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239173_original.jpg",
+      "members" : "Stephen Leber, Rich DiGiambattista, Sarah Gurgal, Colleen McHugh, Brad Simon, Kristie Beahm, Cati Carle, Maureen O'Shea, and Megan Begley."
+    },
+    {
+      "name": "Alpha Phi",
+      "inducted": "Fall 2012",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239166_original.jpg",
+      "members" : "Ryan Dicce, Kelcie Ireson, Dan Rodini, John Phillips, Nicole Delhagen, Jesse Cohen, Chelsea Perugini, Maureen Alle, Marilyn Wellnitz, Becka Cancelosi, Jamie Vanderlaan, Karina Nunez, and Megan Coryell."
+    },
+    {
+      "name": "Alpha Chi",
+      "inducted": "Spring 2011",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239148_original.jpg",
+      "members" : "Joe Matusik, Stormy Milburn, Cory Karr, Tim Parker, Jess Bondy, Kristen Branin, Joe Funari, Rae Leventhal, Isabella DiLauro, Scarlett Murphy, Chelsea DeSimone, Hannah Raff, Erin Jochym, Brittany Shaw, Liz Simpson, and Ryan Biemuller."
+    },
+    {
+      "name": "Alpha Psi",
+      "inducted": "Fall 2011",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239157_original.jpg",
+      "members" : "Kelly Abraham, Kelsey Boyles, Erin Croke, Chris Davis, Lauren Hall, Katie Hennessey, Vanessa Long, Jim Murphy, Sarah Russell, Alycia Schlenk, Matt Shirley, and Nikki Squillante."
+    },
+    {
+      "name": "Alpha Omega",
+      "inducted": "Spring 2012",
+      "photo" : null,
+      "members" : "Alison Imboden, Beau Ryck, Daniel O'Connor, Gary Kleinschmidt, Hannah Broser, Jess Bitman, Lauren Wolf, Michelle Malbacho, Molly Yanchuck, Paige Gibson, Robert D'Ippolito, and Trev Lawson."
+    },
+    {
+      "name": "Beta Alpha",
+      "inducted": "Fall 2012",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239192_original.jpg",
+      "members" : "mani Thomas, Adam Farrow, Katie Uleau, Vika Mosuriak, Sarah Hill, Brittany Thatcher, Suzanne Hochberg, Meaghan Williams, Emily Smulowitz, Scott Denoro, Jenna Graham, Mads Schueren, Jerrica Garey, and Liz Robertson."
+    },
+    {
+      "name": "Beta Beta",
+      "inducted": "Spring 2013",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/239177_original.jpg",
+      "members" : "Hillary Rights, Kristina Koutsouros, Brenna Kane, John Conroy, Jackie Dillon, Colin Murtoff, Jamie Blose, Kent Charlemagne Jr., Hannah Davis, Julie Schweizer, Elle Steinman, Lauren Valerio, Lauren Good, Katie McFadden, Casey Ganz, and Molly Gingerich."
+    },
+    {
+      "name": "Beta Gamma",
+      "inducted": "Fall 2013",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/273860_original.jpg",
+      "members" : "Tiffany Lopez, Chris Mason, Megan Ramsey, Nick Kruger, Isaac Smicker, Ben Smicker, Desiree Jackson, Rebecca Feinstein, Erin Casey, Jahmai Fisher, Taylor Helmers, Cecilia Montagino, Katie Vandevere, and Jess Ferrara."
+    },
+    {
+      "name": "Beta Delta",
+      "inducted": "Spring 2014",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/314076_original.jpg",
+      "members" : "Sammy Smith, Ashlee O'Doherty, Avery Wilson, Katherine Hood, Emily Becker, Dan Landgraf, Jake Kline, Maggie Varga, Jenn Linden, Brittany Rossi, Kelly Waser, Heather DelGuercio, Jackie DeLucca, Sammi Wheeler, Danielle Van Wyk, Bridget Divney, Michael Moriarty, Montana Leaks, Kathryn Breslin, Lillie Skalka, Sarah Simonetti, Michelle Bangle."
+    },
+    {
+      "name": "Beta Epsilon",
+      "inducted": "Fall 2014",
+      "photo" : "http://os_extranet_images.s3.amazonaws.com/342102_original.jpg",
+      "members" : "Ruth Hochberg, Maddy Price, Jordan Bennett, Rachel Reinicker, Kayla Gabbett , Caitlin Evans, Kevin Ruffenach, Hailey Sherman, Laura Capehart, Jessica Bannister, Jaclyn Evans, Bethany Greb."
+    },
+    {
+      "name": "Beta Zeta",
+      "inducted": "Spring 2015",
+      "photo" : null,
+      "members" : "Eric Maberry, Sam Pettinati, Lexi Segal, Michael Walter, Kristyn Barfoot, Claire Caira, Lauren Brill, Erica Cracolici, Katie McDonald, Laura Hoban, Rebeca Chlebnikow, Sydney Treiman, Lindsay Godown, Taylor Trimble, Anthony Carey, Kelli Johnson, Michael Naples, Harley Koblentz, Hailey Allen, Samantha Markey, Marisa Clagget, and Cameron Cooper."
+    },
+    {
+      "name": "Beta Eta",
+      "inducted": "Fall 2015",
+      "photo" : null,
+      "members" : "Piotr Romanowski, Gabriella Massaro, Nick Buresh, Melanie Flynn, Jimmy Segilia, Alex Land, Devon Anderson, Matt Trudeau, Alexis Staub, Carmen Rossi, Brianna Cuthbertson, Kellie Matson, Deanna Costante, Kelsey Crystle, Lindsey Taormina, Kyra Mitchell, Morgan Heisey, Reginal Smith, Renee Williams, Haley Schramm, Sarah Wagaman, Karlie Malinchok, and Katlyn Cusak."
+    },
+    {
+      "name": "Beta Theta",
+      "inducted": "Spring 2016",
+      "photo" : null,
+      "members" : "Tanisha Boodie, Paul Emilani, Lauren Haines, Morgan Harkness, Jessie Haverkamp, Kali Iovino, Lexi Jennings, Sara Lizambri, Tyler Lonergan, Ryan Long, Nora, McKennedy, Ryan Michael, Justine Perch, Caitlin Seaman, Becca Seeley, Patrick Sweeney, Sara Tabinsky, Ashley Troxell, Kristen Vath, Charmaine Vega, and Allayna Yocam."
+    }
+  ],
   "brothers": [
       {
          "first name": "Mike",
@@ -107,7 +451,7 @@
       },{
          "first name": "Desiree",
          "last name": "Jackson",
-         "class": "",
+         "class": "BΓ",
          "position": "ICR / Regional Rep",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/342072_original.jpg"
@@ -128,7 +472,7 @@
       },{
          "first name": "Kevin",
          "last name": "Ruffenach",
-         "class": "",
+         "class": "BE",
          "position": "Alumni Relations",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/342086_original.jpg"
@@ -156,7 +500,7 @@
       },{
          "first name": "Gary",
          "last name": "Kleinschmidt",
-         "class": "",
+         "class": "AΩ",
          "position": "Alumni Advisor",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/279901_original.jpg"
@@ -191,21 +535,21 @@
       },{
          "first name": "Chris",
          "last name": "Mason",
-         "class": "BB",
+         "class": "BΓ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/282882_original.jpg"
       },{
          "first name": "Katie",
          "last name": "Vandevere",
-         "class": "",
+         "class": "BΓ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/342097_original.jpg"
       },{
          "first name": "Jess",
          "last name": "Ferrara",
-         "class": "",
+         "class": "BΓ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/384362_original.jpg"
@@ -247,7 +591,7 @@
       },{
          "first name": "Avery",
          "last name": "Wilson",
-         "class": "",
+         "class": "ΒΔ",
          "position": "",
          "active": true,
          "img" : "http://os_extranet_images.s3.amazonaws.com/342101_original.jpg"

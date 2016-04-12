@@ -128,8 +128,8 @@ class ActiveBros extends Component {
   }
 }
 
-function mapStateToProps(props) {
-  return { brothers : props.brothers.brothers };
+function mapStateToProps(state) {
+  return { brothers : state.brothers.brothers };
 }
 
 export default connect(mapStateToProps)(ActiveBros);
