@@ -2,19 +2,20 @@ import React from 'react';
 import { Component } from 'react';
 import { connect } from 'react-redux';
 
+import { PledgeClass } from './pledgeClass';
+
 class PledgeHistory extends Component {
   renderClasses() {
     return this.props.classes.map((pClass, index) => {
-      return (
-        <div key={ pClass.name }>
-          <h2 id="founders">{ pClass.name }</h2>
-          <h3>{ pClass.inducted }</h3>
-          <p>
-            { pClass.members }
-            <a href={pClass.photo}>[photo]</a>
-          </p>
-        </div>
-      );
+        return (
+          <PledgeClass
+            key={pClass.name}
+            name={pClass.name}
+            inducted={pClass.inducted}
+            members={pClass.members}
+            photo={pClass.photo}
+            />
+        );
     });
   }
 
