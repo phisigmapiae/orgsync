@@ -1,14 +1,24 @@
 import axios from 'axios';
-
+import firebase from 'firebase'
 export const FETCH_BROTHERS = 'FETCH_BROTHERS';
 
-const ROUTE = 'http://os_extranet_files_test.s3.amazonaws.com/22929_84625_Brothers.json';
-
 export function fetchPosts() {
+  const config = {
+    apiKey: "AIzaSyAvIGoVjEIqhWqx7v82qooxqFOOx_N_-yA",
+    authDomain: "pspalphaepsilon.firebaseapp.com",
+    databaseURL: "https://pspalphaepsilon.firebaseio.com",
+    storageBucket: "pspalphaepsilon.appspot.com",
+  };
+  firebase.initializeApp(config);
 
-    const data = axios.get(ROUTE);
-    return {
-        type: FETCH_BROTHERS,
-        payload: data
+  const ref = firebase.database().ref();
+
+    return dispatch => {
+      ref.on('value', snapshot => {
+        dispatch({
+          type: FETCH_BROTHERS,
+          payload: snapshot.val()
+        })
+      });
     }
 }

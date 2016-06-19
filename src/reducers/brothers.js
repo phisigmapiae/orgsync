@@ -11,10 +11,10 @@ export default function(state = DEFAULT_STATE, action) {
     switch (action.type) {
         case FETCH_BROTHERS:
             return {...state,
-              brothers: action.payload.data.brothers,
-              homepageImages: action.payload.data.homepageImages,
-              classes: action.payload.data.classes,
-              news: action.payload.data.news
+              brothers: action.payload.brothers,
+              homepageImages: action.payload.homepageImages,
+              classes: action.payload.classes,
+              news: action.payload.news
             };
         default:
             return state;
