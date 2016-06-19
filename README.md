@@ -7,9 +7,11 @@ Change directory into the project
 Run the following commands
 
 ```
-	> npm install
-	> npm start
+    > npm install
+    > npm start
 ```
+
+All data is stored and persisted on [firebase](https://console.firebase.google.com/project/pspalphaepsilon).
 
 When deploying a new version of the website, replace/include the following files:
 
