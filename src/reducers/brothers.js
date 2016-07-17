@@ -7,7 +7,7 @@ const DEFAULT_STATE = {
   news: []
 };
 
-export default function(state = DEFAULT_STATE, action) {
+export default function(state = DEFAULT_STATE, action = {}) {
     switch (action.type) {
         case FETCH_BROTHERS:
             return {...state,

@@ -53,59 +53,59 @@ hr {
 	margin-bottom: 10px;
 }
 
- .brotherThumbnail {
+ .brother-panel {
 	 width: 21%;
 	 margin-left: 2%;
 	 margin-right: 2%;
 		float: left;
  }
 
- .brotherThumbnail img {
+ .brother-panel img {
 	 height: auto;
 	 width: 100%;
  }
 
- .brotherThumbnail p {
+ .brother-panel p {
 	 text-align: center;
  }
 
  @media (min-width: 1200px) and (max-width: 1920px) {
-	 .brotherThumbnail {
+	 .brother-panel {
 			width: 21%;
 			margin-left: 2%;
 			margin-right: 2%;
 			float: left;
 	 }
 
-	 .brotherThumbnail img {
+	 .brother-panel img {
 		 height: auto;
   		width: 100%;
 	 }
  }
 
  @media (min-width: 500px) and (max-width: 540px) {
-	 .brotherThumbnail {
+	 .brother-panel {
 			 width: 29%;
 			 margin-left: 2%;
 			 margin-right: 2%;
 			 float: left;
 	 }
 
-	 .brotherThumbnail img {
+	 .brother-panel img {
 		 height: auto;
   		width: 100%;
 	 }
  }
 
  @media (min-width: 200px) and (max-width: 677px) {
-	.brotherThumbnail {
+	.brother-panel {
 			width: 46%;
 			margin-left: 2%;
 			margin-right: 2%;
 			float: left;
 	}
 
-	.brotherThumbnail img {
+	.brother-panel img {
 		height: auto;
 		width: 100%;
 	}

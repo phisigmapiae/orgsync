@@ -7,7 +7,7 @@ export default class BrotherPanel extends Component {
     const { fName, lName, position, img, pClass } = this.props;
 
     return (
-      <div key={fName + lName} className="brotherThumbnail">
+      <div key={fName + lName} className="brother-panel">
             <p> {position} </p>
             <img alt="brother" src={img} />
             <p> {fName} | {pClass}</p>
