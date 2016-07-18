@@ -22,13 +22,7 @@ class ActiveBros extends Component {
     let bros = this.props.brothers.map((bro, index) => {
       if (EXEC_POSITIONS.indexOf(bro["position"]) > -1) {
 
-        return (<BrotherPanel
-          key={bro["first name"] + bro["last name"] + bro["class"]}
-          fName={bro["first name"]}
-          lName={bro["last name"]}
-          position={bro["position"]}
-          img={bro["img"]}
-          pClass={bro["class"]} />);
+        return (<BrotherPanel key={bro["first name"] + bro["last name"] + bro["class"]} bro={bro} />);
       }
     });
     bros = _.compact(bros);
@@ -41,13 +35,7 @@ class ActiveBros extends Component {
   renderChairs() {
     let bros = this.props.brothers.map((bro, index) => {
       if (CHAIR_POSITIONS.indexOf(bro["position"]) > -1) {
-        return (<BrotherPanel
-          key={bro["first name"] + bro["last name"] + bro["class"]}
-          fName={bro["first name"]}
-          lName={bro["last name"]}
-          position={bro["position"]}
-          img={bro["img"]}
-          pClass={bro["class"]} />
+        return (<BrotherPanel key={bro["first name"] + bro["last name"] + bro["class"]} bro={bro} />
       );
       }
     });
@@ -61,13 +49,7 @@ class ActiveBros extends Component {
     // For now just return the list. TODO: Sort this list before rendering.
     let bros = this.props.brothers.map((bro, index) => {
       if (bro["position"] === "Alumni Advisor") {
-        return (<BrotherPanel
-          key={bro["first name"] + bro["last name"] + bro["class"]}
-          fName={bro["first name"]}
-          lName={bro["last name"]}
-          position={bro["position"]}
-          img={bro["img"]}
-          pClass={bro["class"]} />);
+        return (<BrotherPanel key={bro["first name"] + bro["last name"] + bro["class"]} bro={bro} />);
       }
     })
     return _.compact(bros);
@@ -80,13 +62,7 @@ class ActiveBros extends Component {
           EXEC_POSITIONS.indexOf(bro["position"]) === -1 &&
           bro["position"] !== "Alumni Advisor" &&
           bro["active"]) {
-            return (<BrotherPanel
-              key={bro["first name"] + bro["last name"] + bro["class"]}
-              fName={bro["first name"]}
-              lName={bro["last name"]}
-              position={bro["position"]}
-              img={bro["img"]}
-              pClass={bro["class"]} />);
+            return (<BrotherPanel key={bro["first name"] + bro["last name"] + bro["class"]} bro={bro} />);
       }
     });
     bros = _.compact(bros);

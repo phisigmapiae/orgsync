@@ -14,13 +14,7 @@ class Highlight extends Component {
 
     let bros = this.props.brothers.map((bro, index) => {
       if (!bro["active"]) {
-            return (<BrotherPanel
-              key={bro["first name"] + bro["last name"] + bro["class"]}
-              fName={bro["first name"]}
-              lName={bro["last name"]}
-              position={bro["position"]}
-              img={bro["img"]}
-              pClass={bro["class"]} />);
+            return (<BrotherPanel key={bro["first name"] + bro["last name"] + bro["class"]} bro={bro} />);
       }
     });
     bros = _.compact(bros);

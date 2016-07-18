@@ -3,8 +3,14 @@ import { Component } from 'react';
 
 export default class BrotherPanel extends Component {
   render() {
-
-    const { fName, lName, position, img, pClass } = this.props;
+    const { bro: {
+              'first name' : fName,
+              'last name' : lName,
+              position,
+              img,
+              class: pClass
+            }
+    } = this.props;
 
     return (
       <div key={fName + lName} className="brother-panel">
@@ -15,3 +21,6 @@ export default class BrotherPanel extends Component {
     );
   }
 }
+
+BrotherPanel.propTypes = { bro: React.PropTypes.object };
+BrotherPanel.defaultProps = { bro: {} };
